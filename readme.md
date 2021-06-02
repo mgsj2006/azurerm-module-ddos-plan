@@ -20,7 +20,7 @@ Para evitar que seu código receba atualizações automáticas do modulo, é pre
 
 ```hcl
 module "exemplo-1" {
-  source   = "git::https://timbrasil@dev.azure.com/timbrasil/Projeto_IaC/_git/azr-network/modulo-ddos-plan.git?ref=v1.0.0"
+  source   = "git::https://github.com/mgsj2006/azurerm-module-ddos-plan.git?ref=v0.1.0"
   name     = "exemplo-1"
   location = "eastus"
   rg_name  = "resource_group_name"
